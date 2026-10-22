@@ -1,0 +1,15 @@
+# Các thư viện cốt lõi cho Video Downloader & Dubbing Pipeline
+yt-dlp>=2024.08.06
+faster-whisper>=1.0.3
+deep-translator>=1.11.4
+requests>=2.31.0
+
+# Tùy chọn (cho GPU acceleration / Torch):
+# pip install torch torchaudio --index-url https://download.pytorch.org/whl/cu121
+
+# Tùy chọn (cho LLM Gemini / OpenAI translation nâng cao):
+# google-generativeai>=0.7.0
+# openai>=1.30.0
+
+# Tùy chọn (cho tách nhạc nền nâng cao Demucs):
+# demucs>=4.0.1
